@@ -27,6 +27,8 @@
               }
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "font-awesome/css/font-awesome.min.css",
               "src/styles.css"
             ],
             "scripts": []
