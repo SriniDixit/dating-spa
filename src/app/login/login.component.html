@@ -1,0 +1,5 @@
+<form #loginForm="ngForm" class="d-flex" (ngSubmit)="login()">
+    <input type="text" class="form-control me-2" placeholder="username" name="username" [(ngModel)]="model.username">
+    <input type="password" class="form-control me-2" placeholder="password" name="password" [(ngModel)]="model.password">
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
